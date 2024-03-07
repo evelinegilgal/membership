@@ -1,0 +1,55 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="date"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    margin-left: 10px;
+    max-width: 1200px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    width:100%;
+}
+.wa-input {
+    display: flex;
+    align-items: center;
+}
+
+#negara {
+    width: 35%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#nomor_wa {
+    width: 150%;
+    padding: 10px;
+    margin-right: -20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
